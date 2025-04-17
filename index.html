@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-m...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Rekha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">Hello! My name is <span class="purple">Rekha</span>
+                <div>I am a Software Engineer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.pdf" download>
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="https://github.com/your-username" target="_blank">
+                        <button class="btn">View GitHub</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image.jpg" alt="Rekha">
+            </div>
+        </section>
+       
+        
+
+        <hr>
+
+        <section class="secondsection" id="about">
+            <span class="textgray">About Me</span>
+            <h1>Who I Am</h1>
+            <div class="about">
+                <p>I am a passionate software engineer with a focus on web development.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondsection" id="services">
+            <span class="textgray">My Skills</span>
+            <h1>What I Can Do</h1>
+            <div class="services">
+                <h2>Web Development</h2>
+                <p>Expert in HTML, CSS, JavaScript, and React.js.</p>
+                <h2>Backend Development</h2>
+                <p>Experience with PHP, Node.js, and MySQL.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondsection" id="projects">
+            <span class="textgray">Some of My Work</span>
+            <h1>Projects</h1>
+            <div class="projects">
+                <h2>Eco-Exchange</h2>
+                <p>A platform for recycling and environmental awareness.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondsection" id="contact">
+            <span class="textgray">Get in Touch</span>
+            <h1>Contact Me</h1>
+            <div class="contact">
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <strong>Email:</strong> 
+                    <a href="mailto:panikarekha7@gmail.com">panikarekha7@gmail.com</a>
+                </p>
+                <p>
+                    <i class="fab fa-linkedin"></i>
+                    <strong>LinkedIn:</strong> 
+                    <a href="https://www.linkedin.com/in/Rekha panika" target="_blank">linkedin.com/in/Rekha panika</a>
+                </p>
+
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
